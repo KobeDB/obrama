@@ -1,0 +1,61 @@
+﻿LDA:0 = HIA.w,		lda.v
+LDA:1 = HIA.d, HIA, lda,	lda.d
+LDA:2 = HIA.i,		lda.i
+
+STR:0 = BIG.d, BIG, str,	str.d
+STR:1 = BIG.i,		str.i
+
+ADD:0 = OPT.w
+ADD:1 = OPT.d, OPT, add
+ADD:2 = OPT.i
+
+SUB:0 = AFT.w
+SUB:1 = AFT.d, AFT
+SUB:2 = AFT.i
+
+MUL:0 = VER.w
+MUL:1 = VER.d, VER
+MUL:2 = VER.i
+
+DIV:0 = DEL.w
+DIV:1 = DEL.d, DEL
+DIV:2 = DEL.i
+
+MOD:0 = MOD.w
+MOD:1 = MOD.d, MOD
+MOD:2 = MOD.i
+
+CMP:0 = VGL.w
+CMP:1 = VGL.d, VGL
+CMP:2 = VGL.i
+
+
+JMP:0 = SPR.d, SPR,	jmp
+JMP:1 = SPR.i,		jmp.i
+
+JCD:0 = VSP.d, VSP,	jcd
+JCD:1 = VSP.i,		jcd.i
+
+CALL:0 = SBR.d, SBR, call, call.d
+CALL:1 = SBR.i,		call.i
+
+RET:3 = KTG
+
+PUSH:3 = BST
+POP:3 = HST
+
+PRINT:3 = DRU
+
+STOP:3 = STP
+
+reserve = RESGR
+
+EQUAL = ZERO, GEL, NUL
+NEQUAL = NZERO, NGEL, NNUL
+GREATER = POS, GR
+LESSEQ = NPOS, KLG
+LESS = NEG, KL
+GREATEREQ = NNEG, GRG
+
+R9 = STACK_PTR, RSP
+R8 = BASE_PTR, RBP
